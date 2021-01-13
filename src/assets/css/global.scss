@@ -23,8 +23,13 @@
     font-family: 'Montserrat-extrabold';
     src: url(~@/assets/fonts/montserrat-extrabold.woff) format('woff');
   }
-
+  
   @font-face {
     font-family: 'Montserrat-medium';
     src: url(~@/assets/fonts/montserrat-medium.woff) format('woff');
+  }
+
+  @font-face {
+    font-family: 'Montserrat-medium-italic';
+    src: url(~@/assets/fonts/montserrat-mediumitalic.woff) format('woff');
   }

@@ -1,105 +1,48 @@
 <template>
   <div class="container-fuild ">
 
-<div style="position: relative; width=100%">
-  <svg class="g-form-05 d-none d-sm-block" style="width: 100%;position: absolute; z-index: -999;left:0;right: 0; top:110rem" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1275" viewBox="0 0 1920 1275">
-  <defs>
-    <clipPath id="clip-path">
-      <rect id="Rectángulo_710" data-name="Rectángulo 710" width="1920" height="1275" transform="translate(0 3439)" fill="none" stroke="#707070" stroke-width="1"/>
-    </clipPath>
-  </defs>
-  <g id="Enmascarar_grupo_132" data-name="Enmascarar grupo 132" transform="translate(0 -3439)" clip-path="url(#clip-path)">
-    <path id="Trazado_2025" data-name="Trazado 2025" d="M10.773-110.905s237.8-83.561,479.468-50.843,282.88,51.9,490.881,110.1,436.8,86.253,688.586,0S2117.78-430.4,2117.78-430.4c8.284,0-30.792,433.912-30.792,440.349l37.1,392.814c0,6.436-28.812,133.24-37.1,133.24,0,0-220.824,78.029-507.865,115.708s-574.081,31.557-898.561-59.607-669.788,0-669.788,0c-8.284,0-41.573-133.816-41.573-140.253L0-25.829C0-32.265,2.488-110.905,10.773-110.905Z" transform="matrix(0.998, -0.07, 0.07, 0.998, -77.675, 3917.075)" fill="#a4ddee"/>
-    <path id="Trazado_1685" data-name="Trazado 1685" d="M10.773-108.93s237.8-84.855,479.468-51.63,282.88,52.7,490.881,111.8,436.8,87.589,688.586,0,417.28-189.78,417.28-189.78c8.284,0,0,245.8,0,252.335l37.1,398.894c0,6.536-28.812,135.3-37.1,135.3,0,0-452.874-248.717-981.574-60.7s-1056.7-24.757-1056.7-24.757c-8.284,0-79.513,6.536-79.513,0L0-22.536C0-29.072,2.488-108.93,10.773-108.93Z" transform="translate(-137.413 4087.65)" fill="#0f1010"/>
-  </g>
-</svg>
 
-<img class="img-fluid d-sm-none" style="width:100%;position: absolute; z-index: -999;left:0;right: 0; top:133rem"  alt="Responsive image" src="../assets/bg_bandera.svg">
 
-</div>
-
-    <div class="container">
-
-       
-
-      <!--  START SECTION ONE -->
-      <div class="section-one">
-
+    <div class="section-one position-relative">
+      <img src="../assets/form01_section_one.svg" class="d-none d-sm-block" width="200rem" alt="bg-form-section-one"
+        style="position:absolute;left:0;top:18rem;z-index:-99;">
+      <div class="container">
         <div class="row">
           <div class="col-sm-7">
             <div class="section-one__gif">
-              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 480 480"
-                style="enable-background:new 0 0 480 480;" xml:space="preserve">
-                <g>
-                  <g>
-                    <g>
-                      <path
-                        d="M440,72H40c-22.08,0.026-39.974,17.92-40,40v256c0.026,22.08,17.92,39.974,40,40h400
-				c2.245,0.009,4.486-0.187,6.696-0.584C465.945,404.194,480.037,387.517,480,368V112C479.974,89.919,462.08,72.026,440,72z
-				 M40,392c-12.435-0.002-22.81-9.501-23.904-21.888L175.6,265.824L337.808,392H40z M464,368
-				c0.013,11.742-8.492,21.761-20.08,23.656c-1.294,0.233-2.606,0.348-3.92,0.344h-76.136l-105.992-82.488l94.784-75.792
-				L464,300.528V368z M464,281.872l-107.88-64.728c-2.868-1.725-6.506-1.482-9.12,0.608l-102.136,81.68l-63.96-49.744
-				c-2.695-2.094-6.421-2.249-9.28-0.384L16,351.056V112c0-13.255,10.745-24,24-24h400c13.255,0,24,10.745,24,24V281.872z" />
-                      <path d="M240,120c-26.51,0-48,21.49-48,48c0.026,26.499,21.501,47.974,48,48c26.51,0,48-21.49,48-48
-				C288,141.49,266.51,120,240,120z M240,200c-17.673,0-32-14.327-32-32s14.327-32,32-32c17.673,0,32,14.327,32,32
-				S257.673,200,240,200z" />
-                    </g>
-                  </g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-              </svg>
+              <img src="../assets/img.svg" alt="img" class="img-fluid" width="80%">
             </div>
           </div>
           <div class="col-sm-5 order-sm-first align-self-center">
             <div class="text-sm-left">
-              <h5 class="section-one__title mb-0">Formation en ligne sur la préparation physique en footbal amateur</h5>
-              <div class="section-one__line d-sm-none mx-auto mt-3"></div>
-              <p class="section-one__simple-text mt-3">Ourverture le 24 Octobre 2020</p>
+              <h5 class="title mb-0">Formation en ligne sur la préparation physique en footbal amateur</h5>
+              <div class="line d-sm-none mx-auto mt-3"></div>
+              <p class="simple-text mt-3">Ourverture le 24 Octobre 2020</p>
               <button class="btn btn-danger section-one__btn px-3 py-2 mt-4 shadow-lg">Choisir votre formation
                 offerte</button>
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
 
+
+
+
+
+
+
+    <div class="section-card">
+      <div class="container">
         <!--  START CARD ONE -->
-        <div class="section-one__card-one shadow-lg p-5 mb-5 bg-white mt-5">
-          <h3 class="section-one__secondary-title px-sm-5">«J'aimerais avoir un groupe de joueurs physiquement au top,
+        <div class="card-one shadow-lg p-5 mb-5 bg-white mt-5">
+          <h3 class="secondary-title px-sm-5">«J'aimerais avoir un groupe de joueurs physiquement au top,
             sans
             blessés, qui progresse et qui applique mes idées de jeu, qui se régale aux entraînements et en match (et qui
             donne du plaisir à mes proches et aux spectateurs) » (Ludovic, coach R3 séniors)</h3>
-          <div class="section-one__line mx-auto mt-4"></div>
-          <p class="section-one__simple-text mt-4 t-black">Nous avons fait un sondage récemment pour connaître les
+          <div class="line mx-auto mt-4"></div>
+          <p class="simple-text mt-4 t-black">Nous avons fait un sondage récemment pour connaître les
             besoins ou les difficultés des coachs. Nous avons eu des centaines de réponses. Nous avons pris en compte
             tous les besoins et demandes des coachs et nous souhaitons que cette nouvelle version de la formation en
             ligne ‘’préparation physique football’’ réponde à vos attentes (comme celle de Ludovic ci-dessus). Nous vous
@@ -107,428 +50,847 @@
           </p>
         </div>
         <!--  END CARD ONE -->
+      </div>
+    </div>
 
-        <!-- START ITEMS FLOAT -->
 
 
 
-        <div class="container" style="position: relative;">
-          <div class=" d-none d-sm-inline bg-danger rounded-circle" style="width:300px; height: 300px; position: absolute; z-index: -999;
-         left: -9rem; top:  1em;"></div>
 
-          <div class="d-none d-md-inline bg-danger" style="width:200px; height: 200px; position: absolute; opacity: 0.35;z-index: -999;
-         right: 0; top:28rem;"></div>
 
-          <div class="d-none d-md-inline g-form-04" style=" position: absolute; z-index: -999;
-         left: -3rem; top:40rem;">
-            <img src="../assets/img_about002.png" style="height: 11rem; " class="img-fluid" alt="Responsive image">
+
+
+
+
+    <div class="section-retrouverez position-relative">
+      <img src="../assets/form01_section_retrouverez.svg" class="d-none d-md-block"
+        style="right:0;top:-6rem; position:absolute; filter:blur(4px);z-index: -999;" width="150rem"
+        alt="img-section-retrouverez">
+      <img src="../assets/form02_section_retrourverez.svg" class="d-none d-md-block"
+        style="left:0;top:-6rem; position:absolute;;z-index: -999;" width="200rem" alt="img-section-retrouverez">
+      <div class="container">
+        <div class="row spacing-top">
+
+          <div class="col-md-6 mt-4 pr-md-5">
+            <!-- START ITEM-CARD -->
+            <div class="b-card-group__item">
+              <p class="b-card-group__item__title left-top pl-3">
+                PRÉPARATION<br>PHYSIQUE<br>INTEGRÉE
+              </p>
+              <img src="../assets/item01.svg" alt="item01">
+            </div>
+            <!-- END ITEM-CARD -->
+            <!-- START ITEM-CARD -->
+            <div class="b-card-group__item mt-3 position-relative">
+              <div class="rounded-circle d-none d-md-block"
+                style="background-color:#D0F1F6; position: absolute; right:-4rem; bottom:-4rem; width: 10rem; height:10rem; z-index:-99">
+              </div>
+              <p class="b-card-group__item__title left-top pl-3">
+                PÉRIODISATION<br>TACTIQUE
+
+              </p>
+              <img src="../assets/item01.svg" alt="item01">
+            </div>
+            <!-- END ITEM-CARD -->
           </div>
 
-           
+          <div class="col-md-6 text-md-left mt-5  pl-md-5 position-relative">
 
+            <img src="../assets/form03_section_retrouverez.svg" class="d-none d-md-block"
+              style="right:0;bottom: -3rem; position:absolute; ;z-index: -999;" width="150rem"
+              alt="img-section-retrouverez">
 
-
-          <div class="d-none d-sm-inline rounded-circle g-form-03" style="width:170px; height: 170px; position: absolute;background-color:#8ceefe; opacity: 0.5;z-index: -999;
-         left: 13rem; top:0rem;"></div>
-        </div>
-
-
-        <div class="d-none d-sm-inline g-form-05" style="width:180px; height: 180px; background-color:#8ceefe;position: absolute;z-index: -999;
-         right: 0; top:62rem;  opacity: 0.5;"></div>
-
-
-
-        
-
-      
-
-
-
-      <!-- END ITEMS FLOAT -->
-
-      <div class="row spacing-top">
-
-        <div class="col-md-6 mt-4 pr-md-5">
-          <!-- START ITEM-CARD -->
-          <div class="b-card-group__item">
-            <p class="b-card-group__item__title left-top pl-3">
-              PRÉPARATION<br>PHYSIQUE<br>INTEGRÉE
+            <h4 class="tertiary-title ">Vous retrouverez par exemple: </h4>
+            <div class="line mr-auto mt-3 d-none d-md-block"></div>
+            <p class="simple-text mt-3 t-black-on">De nouvelles méthodes et approches de l'entraînement et
+              du football, des séances novatrices (où les joueurs prendront du plaisir à participer), des idées peut
+              être plus en adéquation avec votre philosophie et vos envies.
             </p>
-            
-            <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="454" height="455"
-              viewBox="0 0 454 455">
-              <defs>
-                <clipPath id="clip-path">
-                  <rect id="Rectángulo_441" data-name="Rectángulo 441" width="454" height="455" rx="15"
-                    transform="translate(0 63.938)" fill="#eaf8fb" stroke="#fff" stroke-width="1" />
-                </clipPath>
-              </defs>
-              <g id="Enmascarar_grupo_72" data-name="Enmascarar grupo 72" transform="translate(0 -63.938)"
-                clip-path="url(#clip-path)">
-                <path id="Sustracción_1" data-name="Sustracción 1"
-                  d="M326.421,321.565,38.4,333.12s-64.737-96.428-26.1-214.168C36.273,44.131,108.381,9.729,183.662,1.247c51.955-5.3,94.367,6.362,142.759,33.93Z"
-                  transform="translate(127.579 198.446)" fill="#a8e6f3" />
-                <path id="Trazado_1498" data-name="Trazado 1498"
-                  d="M1347.906,449.969,1746.9,681.834,1394.161,385.743a115.936,115.936,0,0,0-28.844,25.458C1352.254,427.529,1347.906,449.969,1347.906,449.969Z"
-                  transform="translate(-1292.897 -164.243)" fill="#84dbef" />
-                <path id="Trazado_1497" data-name="Trazado 1497"
-                  d="M1537.016,305.268l227.062,484.524L1447.4,354.813s10.333-15.993,42.534-34.191S1537.016,305.268,1537.016,305.268Z"
-                  transform="translate(-1310.078 -271.677)" fill="#60d2e9" />
-                <g id="Grupo_607" data-name="Grupo 607" transform="translate(137.324 123.776)">
-                  <path id="Trazado_1190" data-name="Trazado 1190"
-                    d="M-262.241,996.587l-15.148,5.761a23.43,23.43,0,0,0-8.38,5.47l-5.835,5.928a7.391,7.391,0,0,0,.2,10.56l6.612,6.238a7.393,7.393,0,0,0,9.555.5l8.491-6.475s17.217-9.056,13.885-18.981Z"
-                    transform="translate(293.726 -747.2)" fill="#ffb29a" />
-                  <path id="Trazado_1191" data-name="Trazado 1191"
-                    d="M-159.592,1172.834c-.569-76.053,15.139-149.093,15.139-149.093l-58.85-1.016s2.981,110.195,9.121,155.853c8.256,61.393,7.517,180.793,7.517,180.793h17.435S-149.089,1243.007-159.592,1172.834Z"
-                    transform="translate(315.895 -740.792)" fill="#ff8b7b" />
-                  <path id="Trazado_1192" data-name="Trazado 1192"
-                    d="M-184.179,1291.619l18.751.259a1.164,1.164,0,0,1,1.167,1.053l1.437,13.488a2.463,2.463,0,0,1-2.482,2.654c-5.936-.194-16.754-.679-24.229-.8-8.741-.137-7.891.221-18.141.061-6.2-.1-7.2-6.4-4.537-6.928,12.109-2.4,13.33-2.528,24.261-8.671A7.587,7.587,0,0,1-184.179,1291.619Z"
-                    transform="translate(313.372 -674.867)" fill="#263238" />
-                  <path id="Trazado_1193" data-name="Trazado 1193"
-                    d="M-168.579,1074.8c-4.367,5.5-4.5,19.783,2.951,35.089.491-6.858,1.075-13.546,1.7-19.99Z"
-                    transform="translate(323.668 -728.024)" opacity="0.2" />
-                  <path id="Trazado_1194" data-name="Trazado 1194"
-                    d="M-110.012,1170.842c-10.484-67.973-4.185-131.718-14.247-146.9l-58.477-.862s29.5,107.467,40.881,152.745c11.832,47.078,40.876,183.286,40.876,183.286l15.918.346S-87.06,1224.079-110.012,1170.842Z"
-                    transform="translate(320.938 -740.704)" fill="#ff8b7b" />
-                  <path id="Trazado_1195" data-name="Trazado 1195"
-                    d="M-117.31,1290.144l21.126.441a1.371,1.371,0,0,1,1.357,1.228l1.764,15.63a2.807,2.807,0,0,1-2.848,3.056c-6.863-.27-11.091-.859-19.732-1.052-10.1-.227-5.44.221-17.289-.045-7.166-.161-8.817-6.666-5.8-7.492,9.534-2.617,12.724-6.393,17.075-10.5A6.09,6.09,0,0,1-117.31,1290.144Z"
-                    transform="translate(331.374 -675.23)" fill="#263238" />
-                  <path id="Trazado_1196" data-name="Trazado 1196"
-                    d="M-170.391,1100.662c-6.782-22.889-14.545-78.7-14.545-78.7s47.965-1.07,67.015,0c19.025,30.586,7.3,56.616,7.3,56.616,3.286,14.3,7.928,95.359,7.928,95.359s24.076,107.4,18.776,181.9l-26.7-1.271s-32.64-152.6-39.422-169.979S-166.955,1118.482-170.391,1100.662Z"
-                    transform="translate(320.398 -741.026)" fill="#263238" />
-                  <path id="Trazado_1197" data-name="Trazado 1197"
-                    d="M-202.923,1098.755c0-19.311-1.936-76.828-1.936-76.828s42.392.366,61.4,1.436c17.912,30.586-1.9,77.311-1.9,77.311l-7.437,74.553s3.815,55.317,2.544,88.379-12.081,93.468-12.081,93.468l-34.9-.56s6.286-116.432-1.345-167.935C-198.571,1188.579-202.188,1120.839-202.923,1098.755Z"
-                    transform="translate(315.514 -740.987)" fill="#263238" />
-                  <path id="Trazado_1198" data-name="Trazado 1198"
-                    d="M-139.723,1024.021s5.087,29.566,6.358,42.6,3.073,67.4,3.709,103c0,0,20.029,80.752,25.433,116.676s7.313,62.947,7.63,68.034"
-                    transform="translate(331.483 -740.474)" fill="none" stroke="#fff" stroke-miterlimit="10"
-                    stroke-width="1" />
-                  <path id="Trazado_1199" data-name="Trazado 1199"
-                    d="M-145,1024.362s6.358,30.625,7.63,43.661,2.013,65.914,2.648,101.52c0,0,20.029,80.751,25.434,116.676s7.312,62.947,7.63,68.033"
-                    transform="translate(330.189 -740.39)" fill="none" stroke="#fff" stroke-miterlimit="10"
-                    stroke-width="1" />
-                  <path id="Trazado_1200" data-name="Trazado 1200"
-                    d="M-204.522,1017.5l88.351,1.824a.9.9,0,0,1,.878.9v5.23a.9.9,0,0,1-.9.9l-87.941-.511a.9.9,0,0,1-.891-.843l-.41-6.542A.9.9,0,0,1-204.522,1017.5Z"
-                    transform="translate(315.371 -742.072)" fill="#263238" />
-                  <path id="Trazado_1201" data-name="Trazado 1201"
-                    d="M-175.6,823.464c-.817-7.024-1.772-20.7,4.09-23.52,15.818-2.1,32.809,13.951,34.855,17.9s1.181,21.449-6.18,24.72S-175.6,823.464-175.6,823.464Z"
-                    transform="translate(324.98 -785.903)" fill="#263238" />
-                  <path id="Trazado_1202" data-name="Trazado 1202"
-                    d="M-257.889,1046.275c.761-.58.544-.953,1.382-1.457.186-.111,1.606-.228,1.767-.356,11.589-9.163,20.564-18.193,32.027-28.183,6.139-5.418,11.856-12.611,17.873-18.518l4.5-4.546,4.488-4.83c1.505-1.724,3-3.509,4.514-5.347l2.366-3.329,2.068-3.269a154.362,154.362,0,0,0,11.563-25.063,244.233,244.233,0,0,0,7.574-24.525c2.071-8.166,3.76-16.339,5.162-24.532a71.1,71.1,0,0,0,1.339-12.388,44.429,44.429,0,0,0-1.62-12.885A19.789,19.789,0,0,0-171.93,865.5a19.745,19.745,0,0,0-26.99,7.159l-.572.984c-4.051,6.974-5.409,14.705-6.246,22.275-.945,7.608-1.952,15.186-3.026,22.682S-211.01,933.5-212.4,940.65a117.19,117.19,0,0,1-5.378,19.689l-.829,1.973-.823,1.742-2.524,4.347-2.975,4.544-3.25,4.593c-4.476,6.14-9.31,12.27-14.263,18.349-9.894,12.175-18.8,20.974-29.255,32.818l.106.9-1.642,1.483a69.777,69.777,0,0,0,6.862,7.975A74.186,74.186,0,0,0-257.889,1046.275Z"
-                    transform="translate(298.75 -779.994)" fill="#407bff" />
-                  <path id="Trazado_1203" data-name="Trazado 1203"
-                    d="M-87.869,863.351l-58.012-9.954-49.319,8.084a22.244,22.244,0,0,0-18.6,20.351c-3.851,54.1,11.441,100.417,6.353,187.971a3.532,3.532,0,0,0,3.42,3.752c6.485.173,20.9.742,40.228,2.472,7.964.714,21.555-.019,29.792.351,15.055.675,26.186,1.538,31.063,1.951a2.4,2.4,0,0,0,2.612-2.462c-1.436-47.387,25.865-131.029,30.88-188.533A22.313,22.313,0,0,0-87.869,863.351Z"
-                    transform="translate(313.168 -782.305)" fill="#407bff" />
-                  <path id="Trazado_1204" data-name="Trazado 1204"
-                    d="M-141.525,824.582c-.7,9.634-1.048,22.269,1.6,33.787-1.58,6.422-13.028,13.217-26.339,16.382-10.425-5.212-9.07-13.114-5.831-17.116,11.067-1.8,8.465-12.583,6.832-20.347Z"
-                    transform="translate(325.124 -783.887)" fill="#ffb29a" />
-                  <path id="Trazado_1205" data-name="Trazado 1205"
-                    d="M-172.264,913.616a.991.991,0,0,1-.209-.023.98.98,0,0,1-.642-.468c-21.108-36.425-5.507-56.192-4.833-57.016a.99.99,0,0,1,1.387-.137.988.988,0,0,1,.137,1.387c-.633.772-15.156,19.189,4.474,53.841,30.273-21.661,45.088-45.547,46.3-53.614a.992.992,0,0,1,1.121-.827.985.985,0,0,1,.827,1.12c-1.265,8.432-16.639,33.388-47.99,55.557A.975.975,0,0,1-172.264,913.616Z"
-                    transform="translate(320.596 -781.728)" fill="#263238" />
-                  <g id="Grupo_185" data-name="Grupo 185" transform="translate(141.533 125.688)">
-                    <path id="Rectángulo_339" data-name="Rectángulo 339"
-                      d="M2.026,0h8.039a0,0,0,0,1,0,0V19.8a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2.026A2.026,2.026,0,0,1,2.026,0Z"
-                      transform="translate(0 0)" fill="#263238" />
-                    <path id="Trazado_1206" data-name="Trazado 1206"
-                      d="M-169.867,907.145h0a4.95,4.95,0,0,1-4.951-4.951v-4.951h4.951a4.951,4.951,0,0,1,4.951,4.951h0A4.95,4.95,0,0,1-169.867,907.145Z"
-                      transform="translate(181.346 -897.243)" fill="#263238" />
-                  </g>
-                  <path id="Trazado_1207" data-name="Trazado 1207"
-                    d="M-164.86,838.992l-1.014.539a49.987,49.987,0,0,1,1.439,9.6c4.892.048,9.963-1.358,12.63-4.434,2.225-2.569,3.992-5.333,4.449-6.969Z"
-                    transform="translate(325.82 -782.819)" opacity="0.2" />
-                  <path id="Trazado_1208" data-name="Trazado 1208"
-                    d="M-104.977,877.375c-4.385,1.89-11.869,13.942-11.159,26.757.788,14.73,5.592,27.177,12.63,36.472,3.519-15.833,6.775-31.956,8.8-48.158Z"
-                    transform="translate(337.254 -776.426)" opacity="0.2" />
-                  <path id="Trazado_1209" data-name="Trazado 1209"
-                    d="M-138.426,818.956c-2.065,12.852-2.62,20.484-9.808,26.424-10.813,8.934-26.207,1.3-28.027-11.949-1.638-11.922,2.014-30.936,15.188-34.727A17.939,17.939,0,0,1-138.426,818.956Z"
-                    transform="translate(324.947 -786.048)" fill="#ffb29a" />
-                  <path id="Trazado_1210" data-name="Trazado 1210"
-                    d="M-139.789,830.021c-5.329-4.431-9.818-14.328-6.07-22.371-9.747,1.978-25.973,2.966-30.656-6.257-3.254-6.408-1.234-13.406,6.179-14.451,3.861,6.135,11.993,4.7,18.878,3.612s24.675-3.617,22.948,9.778C-120.238,801.257-115.92,819.66-139.789,830.021Z"
-                    transform="translate(324.834 -786.942)" fill="#263238" />
-                  <path id="Trazado_1211" data-name="Trazado 1211"
-                    d="M-135.8,830.378a12.252,12.252,0,0,1-7.869,5.186c-4.267.778-6.042-3.138-4.555-6.962,1.338-3.44,5.172-7.993,9.311-7.039C-134.84,822.5-133.6,827.039-135.8,830.378Z"
-                    transform="translate(327.21 -784.141)" fill="#ffb29a" />
-                  <g id="Grupo_187" data-name="Grupo 187" transform="translate(165.718 190.516)">
-                    <path id="Rectángulo_340" data-name="Rectángulo 340"
-                      d="M1.036,0H69.3A1.036,1.036,0,0,1,70.34,1.036V89.79A1.036,1.036,0,0,1,69.3,90.827H1.037A1.037,1.037,0,0,1,0,89.79V1.036A1.036,1.036,0,0,1,1.036,0Z"
-                      transform="translate(0 60.011) rotate(-56.652)" fill="#407bff" />
-                    <g id="Grupo_186" data-name="Grupo 186" transform="translate(0.824 0)">
-                      <path id="Rectángulo_341" data-name="Rectángulo 341"
-                        d="M1.036,0H69.3A1.036,1.036,0,0,1,70.34,1.036V89.79A1.036,1.036,0,0,1,69.3,90.827H1.037A1.037,1.037,0,0,1,0,89.79V1.036A1.036,1.036,0,0,1,1.036,0Z"
-                        transform="translate(0 58.758) rotate(-56.652)" fill="#407bff" />
-                      <path id="Rectángulo_342" data-name="Rectángulo 342"
-                        d="M1.036,0H69.3A1.036,1.036,0,0,1,70.34,1.036V89.79A1.036,1.036,0,0,1,69.3,90.827H1.037A1.037,1.037,0,0,1,0,89.79V1.036A1.036,1.036,0,0,1,1.036,0Z"
-                        transform="translate(0 58.758) rotate(-56.652)" fill="#fff" opacity="0.7" />
-                    </g>
-                    <path id="Trazado_1212" data-name="Trazado 1212"
-                      d="M-52.182,998.555-86.5,1052.087l-69.386-45.661,34.952-53.113Z"
-                      transform="translate(161.803 -948.325)" opacity="0.2" />
-                    <path id="Trazado_1213" data-name="Trazado 1213"
-                      d="M-51.792,996.923l-35.37,53.748a740.825,740.825,0,0,1-68.893-45.337l35.369-53.748A741.011,741.011,0,0,0-51.792,996.923Z"
-                      transform="translate(161.761 -948.748)" fill="#fff" />
-                    <path id="Trazado_1214" data-name="Trazado 1214"
-                      d="M-143.619,981.048l-.654,1.015a2.255,2.255,0,0,1-3.272.6l-1.779-1.316a.259.259,0,0,1-.062-.351l1.848-2.808a.26.26,0,0,1,.371-.066l3.485,2.58A.258.258,0,0,1-143.619,981.048Z"
-                      transform="translate(163.386 -942.255)" opacity="0.4" />
-                    <path id="Trazado_1215" data-name="Trazado 1215"
-                      d="M-140.147,964.157l-11.128,16.909a2.1,2.1,0,0,0,.743,3.023l3.948,2.205a2.505,2.505,0,0,0,3.255-.792l11.128-16.91a2.1,2.1,0,0,0-.745-3.023l-3.948-2.205A2.5,2.5,0,0,0-140.147,964.157Z"
-                      transform="translate(162.845 -945.934)" fill="#263238" />
-                  </g>
-                  <path id="Trazado_1216" data-name="Trazado 1216"
-                    d="M-103.024,997.378l-13.9,8.332a23.45,23.45,0,0,0-7.288,6.858l-4.7,6.861a7.39,7.39,0,0,0,2.048,10.361l7.6,4.981a7.393,7.393,0,0,0,9.494-1.185l7.222-7.866s15.359-11.939,10.335-21.124Z"
-                    transform="translate(333.815 -747.006)" fill="#ffb29a" />
-                  <path id="Trazado_1217" data-name="Trazado 1217"
-                    d="M-97.381,866.949a40.9,40.9,0,0,1,9.725,8.065,65.285,65.285,0,0,1,7.124,9.735c4.322,6.794,8.407,13.771,12.155,21.052A205.85,205.85,0,0,1-58.22,928.65c2.924,8.086,5.636,16.4,7.038,26.317.182,1.22.329,2.488.416,3.83l.147,1.968c.041.684.034,1.561.04,2.33a35.035,35.035,0,0,1-.238,4.512c-.111,1.485-.369,2.752-.593,4.083A75.962,75.962,0,0,1-55.5,985.495a158,158,0,0,1-11.388,22.6,319.428,319.428,0,0,1-27.974,38.808,9.136,9.136,0,0,1-12.865,1.177,9.138,9.138,0,0,1-2.17-11.407l.12-.217c3.5-6.395,6.921-13.239,10.092-19.94,3.206-6.725,6.151-13.524,8.749-20.29a128.983,128.983,0,0,0,6.127-19.848,41.3,41.3,0,0,0,.981-8.577,10.616,10.616,0,0,0-.116-1.64,4.49,4.49,0,0,0-.253-1.231l-.391-1.412c-.133-.563-.324-1.181-.549-1.832a91.851,91.851,0,0,0-8-17.014c-3.459-5.9-7.279-11.85-11.27-17.8s-8.121-11.908-12.323-17.847a72.586,72.586,0,0,1-5.932-9.181,35.615,35.615,0,0,1-3.853-10.478l-.36-2.325a19.766,19.766,0,0,1,16.51-22.557A19.727,19.727,0,0,1-97.381,866.949Z"
-                    transform="translate(334.576 -779.643)" fill="#407bff" />
-                </g>
-              </g>
-            </svg>
           </div>
-          <!-- END ITEM-CARD -->
-          <!-- START ITEM-CARD -->
-          <div class="b-card-group__item mt-3">
-            <p class="b-card-group__item__title left-top pl-3">
-              PÉRIODISATION<br>TACTIQUE
 
-            </p>
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="454" height="455"
-              viewBox="0 0 454 455">
-              <defs>
-                <clipPath id="clip-path">
-                  <rect id="Rectángulo_441" data-name="Rectángulo 441" width="454" height="455" rx="15"
-                    transform="translate(0 63.938)" fill="#eaf8fb" stroke="#fff" stroke-width="1" />
-                </clipPath>
-              </defs>
-              <g id="Enmascarar_grupo_72" data-name="Enmascarar grupo 72" transform="translate(0 -63.938)"
-                clip-path="url(#clip-path)">
-                <path id="Sustracción_1" data-name="Sustracción 1"
-                  d="M326.421,321.565,38.4,333.12s-64.737-96.428-26.1-214.168C36.273,44.131,108.381,9.729,183.662,1.247c51.955-5.3,94.367,6.362,142.759,33.93Z"
-                  transform="translate(127.579 198.446)" fill="#a8e6f3" />
-                <path id="Trazado_1498" data-name="Trazado 1498"
-                  d="M1347.906,449.969,1746.9,681.834,1394.161,385.743a115.936,115.936,0,0,0-28.844,25.458C1352.254,427.529,1347.906,449.969,1347.906,449.969Z"
-                  transform="translate(-1292.897 -164.243)" fill="#84dbef" />
-                <path id="Trazado_1497" data-name="Trazado 1497"
-                  d="M1537.016,305.268l227.062,484.524L1447.4,354.813s10.333-15.993,42.534-34.191S1537.016,305.268,1537.016,305.268Z"
-                  transform="translate(-1310.078 -271.677)" fill="#60d2e9" />
-                <g id="Grupo_607" data-name="Grupo 607" transform="translate(137.324 123.776)">
-                  <path id="Trazado_1190" data-name="Trazado 1190"
-                    d="M-262.241,996.587l-15.148,5.761a23.43,23.43,0,0,0-8.38,5.47l-5.835,5.928a7.391,7.391,0,0,0,.2,10.56l6.612,6.238a7.393,7.393,0,0,0,9.555.5l8.491-6.475s17.217-9.056,13.885-18.981Z"
-                    transform="translate(293.726 -747.2)" fill="#ffb29a" />
-                  <path id="Trazado_1191" data-name="Trazado 1191"
-                    d="M-159.592,1172.834c-.569-76.053,15.139-149.093,15.139-149.093l-58.85-1.016s2.981,110.195,9.121,155.853c8.256,61.393,7.517,180.793,7.517,180.793h17.435S-149.089,1243.007-159.592,1172.834Z"
-                    transform="translate(315.895 -740.792)" fill="#ff8b7b" />
-                  <path id="Trazado_1192" data-name="Trazado 1192"
-                    d="M-184.179,1291.619l18.751.259a1.164,1.164,0,0,1,1.167,1.053l1.437,13.488a2.463,2.463,0,0,1-2.482,2.654c-5.936-.194-16.754-.679-24.229-.8-8.741-.137-7.891.221-18.141.061-6.2-.1-7.2-6.4-4.537-6.928,12.109-2.4,13.33-2.528,24.261-8.671A7.587,7.587,0,0,1-184.179,1291.619Z"
-                    transform="translate(313.372 -674.867)" fill="#263238" />
-                  <path id="Trazado_1193" data-name="Trazado 1193"
-                    d="M-168.579,1074.8c-4.367,5.5-4.5,19.783,2.951,35.089.491-6.858,1.075-13.546,1.7-19.99Z"
-                    transform="translate(323.668 -728.024)" opacity="0.2" />
-                  <path id="Trazado_1194" data-name="Trazado 1194"
-                    d="M-110.012,1170.842c-10.484-67.973-4.185-131.718-14.247-146.9l-58.477-.862s29.5,107.467,40.881,152.745c11.832,47.078,40.876,183.286,40.876,183.286l15.918.346S-87.06,1224.079-110.012,1170.842Z"
-                    transform="translate(320.938 -740.704)" fill="#ff8b7b" />
-                  <path id="Trazado_1195" data-name="Trazado 1195"
-                    d="M-117.31,1290.144l21.126.441a1.371,1.371,0,0,1,1.357,1.228l1.764,15.63a2.807,2.807,0,0,1-2.848,3.056c-6.863-.27-11.091-.859-19.732-1.052-10.1-.227-5.44.221-17.289-.045-7.166-.161-8.817-6.666-5.8-7.492,9.534-2.617,12.724-6.393,17.075-10.5A6.09,6.09,0,0,1-117.31,1290.144Z"
-                    transform="translate(331.374 -675.23)" fill="#263238" />
-                  <path id="Trazado_1196" data-name="Trazado 1196"
-                    d="M-170.391,1100.662c-6.782-22.889-14.545-78.7-14.545-78.7s47.965-1.07,67.015,0c19.025,30.586,7.3,56.616,7.3,56.616,3.286,14.3,7.928,95.359,7.928,95.359s24.076,107.4,18.776,181.9l-26.7-1.271s-32.64-152.6-39.422-169.979S-166.955,1118.482-170.391,1100.662Z"
-                    transform="translate(320.398 -741.026)" fill="#263238" />
-                  <path id="Trazado_1197" data-name="Trazado 1197"
-                    d="M-202.923,1098.755c0-19.311-1.936-76.828-1.936-76.828s42.392.366,61.4,1.436c17.912,30.586-1.9,77.311-1.9,77.311l-7.437,74.553s3.815,55.317,2.544,88.379-12.081,93.468-12.081,93.468l-34.9-.56s6.286-116.432-1.345-167.935C-198.571,1188.579-202.188,1120.839-202.923,1098.755Z"
-                    transform="translate(315.514 -740.987)" fill="#263238" />
-                  <path id="Trazado_1198" data-name="Trazado 1198"
-                    d="M-139.723,1024.021s5.087,29.566,6.358,42.6,3.073,67.4,3.709,103c0,0,20.029,80.752,25.433,116.676s7.313,62.947,7.63,68.034"
-                    transform="translate(331.483 -740.474)" fill="none" stroke="#fff" stroke-miterlimit="10"
-                    stroke-width="1" />
-                  <path id="Trazado_1199" data-name="Trazado 1199"
-                    d="M-145,1024.362s6.358,30.625,7.63,43.661,2.013,65.914,2.648,101.52c0,0,20.029,80.751,25.434,116.676s7.312,62.947,7.63,68.033"
-                    transform="translate(330.189 -740.39)" fill="none" stroke="#fff" stroke-miterlimit="10"
-                    stroke-width="1" />
-                  <path id="Trazado_1200" data-name="Trazado 1200"
-                    d="M-204.522,1017.5l88.351,1.824a.9.9,0,0,1,.878.9v5.23a.9.9,0,0,1-.9.9l-87.941-.511a.9.9,0,0,1-.891-.843l-.41-6.542A.9.9,0,0,1-204.522,1017.5Z"
-                    transform="translate(315.371 -742.072)" fill="#263238" />
-                  <path id="Trazado_1201" data-name="Trazado 1201"
-                    d="M-175.6,823.464c-.817-7.024-1.772-20.7,4.09-23.52,15.818-2.1,32.809,13.951,34.855,17.9s1.181,21.449-6.18,24.72S-175.6,823.464-175.6,823.464Z"
-                    transform="translate(324.98 -785.903)" fill="#263238" />
-                  <path id="Trazado_1202" data-name="Trazado 1202"
-                    d="M-257.889,1046.275c.761-.58.544-.953,1.382-1.457.186-.111,1.606-.228,1.767-.356,11.589-9.163,20.564-18.193,32.027-28.183,6.139-5.418,11.856-12.611,17.873-18.518l4.5-4.546,4.488-4.83c1.505-1.724,3-3.509,4.514-5.347l2.366-3.329,2.068-3.269a154.362,154.362,0,0,0,11.563-25.063,244.233,244.233,0,0,0,7.574-24.525c2.071-8.166,3.76-16.339,5.162-24.532a71.1,71.1,0,0,0,1.339-12.388,44.429,44.429,0,0,0-1.62-12.885A19.789,19.789,0,0,0-171.93,865.5a19.745,19.745,0,0,0-26.99,7.159l-.572.984c-4.051,6.974-5.409,14.705-6.246,22.275-.945,7.608-1.952,15.186-3.026,22.682S-211.01,933.5-212.4,940.65a117.19,117.19,0,0,1-5.378,19.689l-.829,1.973-.823,1.742-2.524,4.347-2.975,4.544-3.25,4.593c-4.476,6.14-9.31,12.27-14.263,18.349-9.894,12.175-18.8,20.974-29.255,32.818l.106.9-1.642,1.483a69.777,69.777,0,0,0,6.862,7.975A74.186,74.186,0,0,0-257.889,1046.275Z"
-                    transform="translate(298.75 -779.994)" fill="#407bff" />
-                  <path id="Trazado_1203" data-name="Trazado 1203"
-                    d="M-87.869,863.351l-58.012-9.954-49.319,8.084a22.244,22.244,0,0,0-18.6,20.351c-3.851,54.1,11.441,100.417,6.353,187.971a3.532,3.532,0,0,0,3.42,3.752c6.485.173,20.9.742,40.228,2.472,7.964.714,21.555-.019,29.792.351,15.055.675,26.186,1.538,31.063,1.951a2.4,2.4,0,0,0,2.612-2.462c-1.436-47.387,25.865-131.029,30.88-188.533A22.313,22.313,0,0,0-87.869,863.351Z"
-                    transform="translate(313.168 -782.305)" fill="#407bff" />
-                  <path id="Trazado_1204" data-name="Trazado 1204"
-                    d="M-141.525,824.582c-.7,9.634-1.048,22.269,1.6,33.787-1.58,6.422-13.028,13.217-26.339,16.382-10.425-5.212-9.07-13.114-5.831-17.116,11.067-1.8,8.465-12.583,6.832-20.347Z"
-                    transform="translate(325.124 -783.887)" fill="#ffb29a" />
-                  <path id="Trazado_1205" data-name="Trazado 1205"
-                    d="M-172.264,913.616a.991.991,0,0,1-.209-.023.98.98,0,0,1-.642-.468c-21.108-36.425-5.507-56.192-4.833-57.016a.99.99,0,0,1,1.387-.137.988.988,0,0,1,.137,1.387c-.633.772-15.156,19.189,4.474,53.841,30.273-21.661,45.088-45.547,46.3-53.614a.992.992,0,0,1,1.121-.827.985.985,0,0,1,.827,1.12c-1.265,8.432-16.639,33.388-47.99,55.557A.975.975,0,0,1-172.264,913.616Z"
-                    transform="translate(320.596 -781.728)" fill="#263238" />
-                  <g id="Grupo_185" data-name="Grupo 185" transform="translate(141.533 125.688)">
-                    <path id="Rectángulo_339" data-name="Rectángulo 339"
-                      d="M2.026,0h8.039a0,0,0,0,1,0,0V19.8a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2.026A2.026,2.026,0,0,1,2.026,0Z"
-                      transform="translate(0 0)" fill="#263238" />
-                    <path id="Trazado_1206" data-name="Trazado 1206"
-                      d="M-169.867,907.145h0a4.95,4.95,0,0,1-4.951-4.951v-4.951h4.951a4.951,4.951,0,0,1,4.951,4.951h0A4.95,4.95,0,0,1-169.867,907.145Z"
-                      transform="translate(181.346 -897.243)" fill="#263238" />
-                  </g>
-                  <path id="Trazado_1207" data-name="Trazado 1207"
-                    d="M-164.86,838.992l-1.014.539a49.987,49.987,0,0,1,1.439,9.6c4.892.048,9.963-1.358,12.63-4.434,2.225-2.569,3.992-5.333,4.449-6.969Z"
-                    transform="translate(325.82 -782.819)" opacity="0.2" />
-                  <path id="Trazado_1208" data-name="Trazado 1208"
-                    d="M-104.977,877.375c-4.385,1.89-11.869,13.942-11.159,26.757.788,14.73,5.592,27.177,12.63,36.472,3.519-15.833,6.775-31.956,8.8-48.158Z"
-                    transform="translate(337.254 -776.426)" opacity="0.2" />
-                  <path id="Trazado_1209" data-name="Trazado 1209"
-                    d="M-138.426,818.956c-2.065,12.852-2.62,20.484-9.808,26.424-10.813,8.934-26.207,1.3-28.027-11.949-1.638-11.922,2.014-30.936,15.188-34.727A17.939,17.939,0,0,1-138.426,818.956Z"
-                    transform="translate(324.947 -786.048)" fill="#ffb29a" />
-                  <path id="Trazado_1210" data-name="Trazado 1210"
-                    d="M-139.789,830.021c-5.329-4.431-9.818-14.328-6.07-22.371-9.747,1.978-25.973,2.966-30.656-6.257-3.254-6.408-1.234-13.406,6.179-14.451,3.861,6.135,11.993,4.7,18.878,3.612s24.675-3.617,22.948,9.778C-120.238,801.257-115.92,819.66-139.789,830.021Z"
-                    transform="translate(324.834 -786.942)" fill="#263238" />
-                  <path id="Trazado_1211" data-name="Trazado 1211"
-                    d="M-135.8,830.378a12.252,12.252,0,0,1-7.869,5.186c-4.267.778-6.042-3.138-4.555-6.962,1.338-3.44,5.172-7.993,9.311-7.039C-134.84,822.5-133.6,827.039-135.8,830.378Z"
-                    transform="translate(327.21 -784.141)" fill="#ffb29a" />
-                  <g id="Grupo_187" data-name="Grupo 187" transform="translate(165.718 190.516)">
-                    <path id="Rectángulo_340" data-name="Rectángulo 340"
-                      d="M1.036,0H69.3A1.036,1.036,0,0,1,70.34,1.036V89.79A1.036,1.036,0,0,1,69.3,90.827H1.037A1.037,1.037,0,0,1,0,89.79V1.036A1.036,1.036,0,0,1,1.036,0Z"
-                      transform="translate(0 60.011) rotate(-56.652)" fill="#407bff" />
-                    <g id="Grupo_186" data-name="Grupo 186" transform="translate(0.824 0)">
-                      <path id="Rectángulo_341" data-name="Rectángulo 341"
-                        d="M1.036,0H69.3A1.036,1.036,0,0,1,70.34,1.036V89.79A1.036,1.036,0,0,1,69.3,90.827H1.037A1.037,1.037,0,0,1,0,89.79V1.036A1.036,1.036,0,0,1,1.036,0Z"
-                        transform="translate(0 58.758) rotate(-56.652)" fill="#407bff" />
-                      <path id="Rectángulo_342" data-name="Rectángulo 342"
-                        d="M1.036,0H69.3A1.036,1.036,0,0,1,70.34,1.036V89.79A1.036,1.036,0,0,1,69.3,90.827H1.037A1.037,1.037,0,0,1,0,89.79V1.036A1.036,1.036,0,0,1,1.036,0Z"
-                        transform="translate(0 58.758) rotate(-56.652)" fill="#fff" opacity="0.7" />
-                    </g>
-                    <path id="Trazado_1212" data-name="Trazado 1212"
-                      d="M-52.182,998.555-86.5,1052.087l-69.386-45.661,34.952-53.113Z"
-                      transform="translate(161.803 -948.325)" opacity="0.2" />
-                    <path id="Trazado_1213" data-name="Trazado 1213"
-                      d="M-51.792,996.923l-35.37,53.748a740.825,740.825,0,0,1-68.893-45.337l35.369-53.748A741.011,741.011,0,0,0-51.792,996.923Z"
-                      transform="translate(161.761 -948.748)" fill="#fff" />
-                    <path id="Trazado_1214" data-name="Trazado 1214"
-                      d="M-143.619,981.048l-.654,1.015a2.255,2.255,0,0,1-3.272.6l-1.779-1.316a.259.259,0,0,1-.062-.351l1.848-2.808a.26.26,0,0,1,.371-.066l3.485,2.58A.258.258,0,0,1-143.619,981.048Z"
-                      transform="translate(163.386 -942.255)" opacity="0.4" />
-                    <path id="Trazado_1215" data-name="Trazado 1215"
-                      d="M-140.147,964.157l-11.128,16.909a2.1,2.1,0,0,0,.743,3.023l3.948,2.205a2.505,2.505,0,0,0,3.255-.792l11.128-16.91a2.1,2.1,0,0,0-.745-3.023l-3.948-2.205A2.5,2.5,0,0,0-140.147,964.157Z"
-                      transform="translate(162.845 -945.934)" fill="#263238" />
-                  </g>
-                  <path id="Trazado_1216" data-name="Trazado 1216"
-                    d="M-103.024,997.378l-13.9,8.332a23.45,23.45,0,0,0-7.288,6.858l-4.7,6.861a7.39,7.39,0,0,0,2.048,10.361l7.6,4.981a7.393,7.393,0,0,0,9.494-1.185l7.222-7.866s15.359-11.939,10.335-21.124Z"
-                    transform="translate(333.815 -747.006)" fill="#ffb29a" />
-                  <path id="Trazado_1217" data-name="Trazado 1217"
-                    d="M-97.381,866.949a40.9,40.9,0,0,1,9.725,8.065,65.285,65.285,0,0,1,7.124,9.735c4.322,6.794,8.407,13.771,12.155,21.052A205.85,205.85,0,0,1-58.22,928.65c2.924,8.086,5.636,16.4,7.038,26.317.182,1.22.329,2.488.416,3.83l.147,1.968c.041.684.034,1.561.04,2.33a35.035,35.035,0,0,1-.238,4.512c-.111,1.485-.369,2.752-.593,4.083A75.962,75.962,0,0,1-55.5,985.495a158,158,0,0,1-11.388,22.6,319.428,319.428,0,0,1-27.974,38.808,9.136,9.136,0,0,1-12.865,1.177,9.138,9.138,0,0,1-2.17-11.407l.12-.217c3.5-6.395,6.921-13.239,10.092-19.94,3.206-6.725,6.151-13.524,8.749-20.29a128.983,128.983,0,0,0,6.127-19.848,41.3,41.3,0,0,0,.981-8.577,10.616,10.616,0,0,0-.116-1.64,4.49,4.49,0,0,0-.253-1.231l-.391-1.412c-.133-.563-.324-1.181-.549-1.832a91.851,91.851,0,0,0-8-17.014c-3.459-5.9-7.279-11.85-11.27-17.8s-8.121-11.908-12.323-17.847a72.586,72.586,0,0,1-5.932-9.181,35.615,35.615,0,0,1-3.853-10.478l-.36-2.325a19.766,19.766,0,0,1,16.51-22.557A19.727,19.727,0,0,1-97.381,866.949Z"
-                    transform="translate(334.576 -779.643)" fill="#407bff" />
-                </g>
-              </g>
-            </svg>
-          </div>
-          <!-- END ITEM-CARD -->
-        </div>
 
-        <div class="col-md-6 text-md-left mt-5  pl-md-5 ">
-          <h4 class="section-one__tertiary-title ">Vous retrouverez par exemple: </h4>
-          <div class="section-one__line mr-auto mt-3 d-none d-md-block"></div>
-          <p class="section-one__simple-text mt-3 t-black-on">De nouvelles méthodes et approches de l'entraînement et
-            du football, des séances novatrices (où les joueurs prendront du plaisir à participer), des idées peut
-            être plus en adéquation avec votre philosophie et vos envies.
-          </p>
         </div>
 
 
       </div>
+    </div>
 
-      <div  class="row align-items-center ">
+
+
+
+
+    <div class="container">
+      <div class="row align-items-center position-relative ">
+        <img src="../assets/form04_section_retrouverez.svg" class="d-none d-md-block" alt="form04-retrouverez"
+          style="position:absolute; top:-8rem" width="500rem">
         <div class="col-md-6 pr-md-5 order-2 order-md-1">
-          <p class="section-one__simple-text t-black-on mt-5">Nous avons fait un sondage Des planifications sur une
-            saison complète (10 mois d'entraînement physique avec exemples d’exercices) pour chaque catégorie des u8 aux
+          <p class="simple-text t-black-on mt-5">Nous avons fait un sondage Des planifications sur une
+            saison complète (10 mois d'entraînement physique avec exemples d’exercices) pour chaque catégorie des u8
+            aux
             séniors (mais aussi pour l'entraînement des gardiens et pour le futsal) pour vous donner un fil conducteur
-            et des exemples sur lesquels vous appuyer pour bien réaliser le travail physique et atteindre vos objectifs.
+            et des exemples sur lesquels vous appuyer pour bien réaliser le travail physique et atteindre vos
+            objectifs.
           </p>
         </div>
 
         <div class="col-md-6 pl-md-5 order-1 order-md-2 mt-5 mt-md-0">
           <img src="../assets/img_about001.png" class="img-fluid" alt="Responsive image">
         </div>
+      </div>
+    </div>
 
 
-         <div class="col order-3 px-md-5">
-           <div class="embed-responsive embed-responsive-16by9 mt-5 card-video" style="border-radius: 1.1rem; 
-       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(252, 254, 255, 0.19);">
-  <iframe class="embed-responsive-item " src="https://www.youtube.com/embed/UOoHzODT7Mo" allowfullscreen></iframe>
-</div>
-<p class="section-one__simple-text text-white mt-4 text-md-left">De nouveaux exercices ludiques et efficaces (que les joueurs adorent)</p>
+
+
+
+
+
+
+
+    <div class="section-video position-relative">
+      <img src="../assets/bg_form_retrouverez.svg" alt="bg-form"
+        class="absolute-center img-fluid mt-5 d-none d-sm-block">
+      <div class="container">
+        <div class=" px-md-5  px-0">
+
+          <img src="../assets/bg_bandera.svg" class="img-fluid absolute-center img-bandera d-none"
+            alt="Responsive image" style=" display:block;z-indez:-999;width: 100%;">
+
+          <div class="absolute-center-sm section-video-content">
+
+            <div class=" embed-responsive embed-responsive-16by9 section-video__frame">
+              <iframe class="embed-responsive-item " src="https://www.youtube.com/embed/UOoHzODT7Mo" style=" display: inline-block;
+  vertical-align: middle;" allowfullscreen></iframe>
+
+            </div>
+
+            <p class="simple-text text-white mt-4 text-md-left">De nouveaux exercices ludiques et
+              efficaces
+              (que les joueurs adorent)</p>
+          </div>
+
         </div>
+      </div>
+    </div>
 
+
+
+
+
+
+
+
+    <div class="section-jspectateurs  text-md-left mt-5 ">
+      <div class="container">
+        <h4 class="tertiary-title ">«Jspectateurs) » (Ludovic, coach R3 séniors)</h4>
+        <div class="line mr-auto mt-3 d-none d-md-block"></div>
+        <p class="simple-text mt-3 ">Vous retrouverez par exemple :
+        </p>
+        <div id="carouselExampleCaptions" class="carousel slide " data-ride="carousel" data-interval="false">
+
+          <div class="carousel-inner invisible" id="content-card-exercise">
+            <div class="carousel-item active">
+              <ItemExercise description="Améliorer l'entraînement physique des séniors en Football"
+                img_exercise="../assets/img_exercise.png" />
+
+            </div>
+            <div class="carousel-item ">
+              <ItemExercise description="Améliorer l'entraînement physique des séniors en Football"
+                img_exercise="../assets/img_exercise.png" />
+
+            </div>
+          </div>
+
+          <img src="../assets/bg_rectangle_red.svg" class="img-fluid d-none d-md-block g-form-12 "
+            alt="Responsive image">
+          <ol class="carousel-indicators d-md-none content-slide-exercise " style="bottom: -3rem">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="section- container">
+      <div class="section-reste-vous text-center">
+        <h5 class="tertiary-title ">Le reste vous sera dévoilé très bientôt.</h5>
+        <div class="line mx-auto mt-3 d-none d-md-block"></div>
+        <p class="simple-text mt-3 t-black-on">
+          Attention, Afin de pouvoir proposer un suivi plus personnalisé et de qualité, nous devons limiter les
+          inscriptions pour la formation en ligne (des centaines de coachs ont suivi la première version et nous
+          recevons de nombreuses questions tous les jours. Pour effectuer un suivi de qualité, nous devons donc
+          limiter le nombre d'inscriptions).
+          <br><br>
+          Si cette formation vous intéresse, nous vous proposons de rejoindre la liste d’attente (vous recevrez
+          toutes les informations sur la formation préparation physique football, vous serez prioritaire sur les
+          inscriptions et vous bénéficierez de réductions) .
+
+        </p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="section-rejolgnez position-relative">
+
+      <img src="../assets/bg_bandera2.svg" class="img-fluid absolute-center d-none d-md-block" alt="Responsive image">
+      <img src="../assets/bg_bandera3.svg" class="img-fluid absolute-center d-md-none" alt="Responsive image" style="">
+
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 col-md-7">
+            <div class="section-rejolgnez-content text-md-left text-center " style=" ">
+              <h5 class="tertiary-title text-white">Rejoignez la liste d'attente</h5>
+              <div class="line  mt-3 d-none d-md-block"></div>
+              <p class="simple-text mt-3 text-white">
+                Vous recevrez toutes les informations sur la formation préparation physique football, vous serez
+                prioritaire sur les inscriptions et vous bénéficierez de réductions
+              </p>
+
+              <button class="btn btn-danger btn-red section-one__btn px-3 py-2 mt-4 shadow-lg lk"
+                style="">Comemcez-ici</button>
+
+            </div>
+          </div>
+        </div>
       </div>
 
 
-       
-    
+    </div>
 
+
+
+
+
+
+
+
+
+    <div class="section-modulos " style="margin-top:20rem;">
+
+      <div class="section-modulos-content">
+        <div class="container">
+
+          <h5 class="tertiary-title text-left" style="color:#21282E">Contenu de votre formation en ligne
+          </h5>
+          <div class="line  mt-3 d-none d-md-block"></div>
+
+          <div id="content-card-modulo" class="content-card-modulo mt-3" style="display: flex; overflow-x: scroll">
+            <CardModulo :name="item.name" :count="item.count" :active="index == moduleActive"
+              v-for="(item, index) in modulos" :key="index" @click.native="moduleActive = index"
+              :class="{active:index == moduleActive}"></CardModulo>
+          </div>
+
+        </div>
+
+        <div class="content-item-modulos position-relative">
+
+          <img src="../assets/bg_form_15.svg" class="d-none d-md-block" alt="form_15" width="13%"
+            style="position: absolute; left: 0; top:10%; bottom:0;z-index:-99;">
+
+
+
+          <div class="container">
+            <div class="accordion" id="accordionExample">
+
+              <img src="../assets/bg_rectangle_red.svg" class="img-fluid d-none d-md-block g-form-13 "
+                alt="Responsive image">
+
+              <ItemModulo :id="item.id" :title="item.title" v-for="(item, index) in modulos[moduleActive].items"
+                :type="modulo" :key="index" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="section-category position-relative " style="margin-top:10rem;">
+
+      <img src="../assets/bg_bandera_category.svg" class="position-absolute absolute-center img-fluid d-none d-md-block"
+        alt="bg_bandera_category" style="z-index:-99;">
+      <img src="../assets/bg_bandera_rect.svg" class=" absolute-center img-fluid d-md-none " alt="bg_bandera_category"
+        style="z-index:-99;">
+
+      <div class="container">
+        <div class="content-section-category d-flex flex-wrap justify-content-around ">
+
+          <ItemCategory :id="item.id" :name="item.name" :description="item.description" :image="item.image"
+            v-for="(item, index) in categories" :key="index" />
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="section-comments">
+      <div class="section-comments-content position-relative">
+
+        <img src="../assets/bg_form_section_coment.svg" class="d-none d-md-block" alt="form_15" width="440rem"
+          style="position: absolute; left: 0; top:10%; bottom:0;z-index:-99;">
+        <img src="../assets/form01_section_coment.svg" class="d-none d-md-block" alt="form_15" width="335rem"
+          style="position: absolute;top: 24rem; left: 36%;  bottom:0;z-index:-99;">
+
+        <div class="container">
+
+          <div class="row justify-content-md-end ">
+            <div class="col-12 col-md-6 ">
+              <h5 class="tertiary-title text-md-left" style="color:#0F1010 ">Des coachs nous font
+                confiance:+ de 10000 coachs ont déjà souscrit à un de nos programmes.</h5>
+              <div class="line  mt-3 d-md-none mx-auto"></div>
+            </div>
+          </div>
+
+          <div id="content-card-comments" class="content-card-comments mt-3 flex-nowrap p-2 "
+            style="display: flex; overflow-x: scroll">
+            <ItemComment v-for="(item, index) in comments" :key="index" />
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="section-confiance position-relative" style="margin-top:25rem;">
+
+      <img src="../assets/bg_form_section_confiance.svg"
+        class="position-absolute absolute-center img-fluid d-none d-md-block" alt="bg_bandera_category"
+        style="z-index:-99;">
+      <img src="../assets/bg_form_prueba.svg" class=" absolute-center img-fluid d-md-none " alt="bg_bandera_category"
+        style="z-index:-99;">
+
+      <img src="../assets/bg_image_load.svg"
+        style="height: 9rem; position: absolute;right:5rem; bottom: -15rem; filter:blur(5px);"
+        class="img-fluid form01-section-confiance d-none d-md-block" alt="Responsive image">
+
+      <div class="container">
+        <div class="section-confiance-content  "></div>
+
+        <h5 class="tertiary-title text-white text-center text-md-left">POURQUOI NOUS FAIRE CONFIANCE VOUS
+          AUSSI?</h5>
+        <div class="line  mt-3 d-none d-md-block "></div>
+        <p class="simple-text mt-3 text-white text-center text-md-left pr-md-5 mr-md-5">
+          Nous avons développé notre approche en prenant le meilleur de chaque grand préparateur physique ou entraîneur
+          que nous avons eu la chance de côtoyer, mais aussi le meilleur de nos lectures et de nos formations
+          universitaires et privées.
+          <br><br>
+          La conception de cette E-Formation est donc basée sur cette approche que nous avons essayé d’adapter du mieux
+          possible à vos besoins...
+          <br><br>
+          Une formation créée par des préparateurs physiques diplômés spécialisés Football.
+        </p>
+
+      </div>
 
     </div>
-    <!--  END SECTION ONE -->
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="section-questions position-relative" style="margin-top:18rem;">
+
+      <img src="../assets/form01_section_questions.svg" class="position-absolute img-fluid d-none d-md-block"
+        alt="bg_bandera_category" style="z-index:-99; width:15rem; right:0">
+
+      <div class="container">
+        <div class="section-questions-content">
+          <h5 class="tertiary-title text-md-left text-center" style="color:#21282E">
+            Questions fréquentes
+          </h5>
+          <div class="line  mt-3 mx-auto ml-md-0"></div>
+
+          <div class="accordion mt-4 " id="accordionExample">
+
+            <ItemModulo :id="item.id" :title="item.question" v-for="(item, index) in questions" :type="question"
+              :key="index" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="section-garantie position-relative" style="margin-top:15rem">
+      <img src="../assets/bg_form_section_garantie.svg"
+        class="position-absolute absolute-center img-fluid d-none d-md-block" alt="bg_bandera_category"
+        style="z-index:-99;">
+      <img src="../assets/bg_form_prueba.svg" class=" absolute-center img-fluid d-md-none " alt="bg_bandera_category"
+        style="z-index:-99;">
+
+      <div class="section-garantie-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-5">
+              <img src="../assets/form01_section_garantie.svg" alt="img-garantie" width="240rem">
+            </div>
+            <div class="col-12 col-md-7 align-self-center mt-4">
+              <h5 class="tertiary-title text-white text-center text-md-left">Vous avez une garantie totale
+                de satisfaction!</h5>
+              <div class="line  mt-3 d-none d-md-block "></div>
+              <p class="simple-text mt-3 text-white text-center text-md-left pr-md-5 mr-md-5">
+                Si vous n’êtes pas satisfait par la formation, quelle qu’en soit la raison, nous vous remboursons
+                intégralement! Il vous suffit de nous envoyer un email en nous informant de votre décision.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="section-subscription" style="margin-top:18rem">
+      <div class="section-subcription-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 align-self-center text-md-left text-center">
+              <h4 class="tertiary-title text-md-left text-center" style="color:#21282E">Rejoignez la liste
+                d'attente</h4>
+              <div class="line mr-auto mt-3 d-none d-md-block"></div>
+              <p class="simple-text mt-3 t-black-on">Vous recevrez toutes les informations sur la formation
+                préparation physique football, vous serez prioritaire sur les inscriptions et vous bénéficierez de
+                réductions
+              </p>
+              <img src="../assets/form02_section_subscription.svg" class="img-fluid d-md-none" alt="img-email">
+              <button class="btn btn-danger btn-red section-one__btn px-3 py-2 mt-4 shadow-lg lk btn-xs-block"
+                style="">Comemcez-ici</button>
+            </div>
+            <div class="col-12 col-md-6 d-none d-md-block">
+              <img src="../assets/form01_section_subscription.svg" alt="img-email" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
   </div>
 </template>
 
 <script>
   // @ is an alias to /src
+  import ItemExercise from '../components/ItemExercise.vue';
+  import CardModulo from '../components/CardModulo.vue';
+  import ItemModulo from '../components/ItemModulo.vue';
+  import ItemCategory from '../components/ItemCategory.vue';
+  import ItemComment from '../components/ItemComment.vue';
 
   export default {
     name: 'Home',
-    components: {}
+    data() {
+      return {
+        moduleActive: 0,
+        comments: [{
+          id: 1
+        }, {
+          id: 2
+        }, {
+          id: 3
+        }, {
+          id: 4
+        }, {
+          id: 5
+        }],
+        questions: [{
+            id: 71,
+            question: 'Doit-on avoir des bases dans le domaine de la préparation physique pour faire la E-Formation?'
+          },
+          {
+            id: 72,
+            question: 'Je suis expert dans la préparation physique, la E-Formation est-elle adaptée à mon niveau?'
+          },
+          {
+            id: 73,
+            question: 'Est-ce une formation 100% théorique?'
+          },
+          {
+            id: 74,
+            question: 'Comment ca se passe après la commande?'
+          },
+          {
+            id: 75,
+            question: 'Je ne comprend pas un point dans la formation?'
+          },
+          {
+            id: 76,
+            question: 'Je ne suis pas d’accord sur un point dans la formation?'
+          }
+        ],
+        modulos: [{
+            name: 'Modulos 1-8',
+            count: '1-8',
+            items: [{
+                id: 1,
+                title: 'Módulo 1 Calentamiento'
+              },
+              {
+                id: 2,
+                title: 'Módulo 2 Velocidad'
+              },
+              {
+                id: 3,
+                title: 'Módulo 3 Resistencia'
+              },
+              {
+                id: 4,
+                title: 'Módulo 4 Fuerza'
+              },
+              {
+                id: 5,
+                title: 'Módulo 5 Coordinación'
+              },
+              {
+                id: 6,
+                title: 'Módulo 6 Flexibilidad'
+              },
+              {
+                id: 7,
+                title: 'Módulo 7 Prevención de heridas'
+              },
+              {
+                id: 8,
+                title: 'Módulo 8 Los jovenes'
+              }
+            ]
+          },
+          {
+            name: 'Modulos 9-16',
+            count: '9-16',
+            items: [{
+                id: 9,
+                title: 'Módulo 9 Lorem Text'
+              },
+              {
+                id: 10,
+                title: 'Módulo 10 Lorem Text'
+              },
+              {
+                id: 11,
+                title: 'Módulo 11 Lorem Text'
+              },
+              {
+                id: 12,
+                title: 'Módulo 12 Lorem Text'
+              },
+              {
+                id: 13,
+                title: 'Módulo 13 Lorem Text'
+              },
+              {
+                id: 14,
+                title: 'Módulo 14 Lorem Text'
+              },
+              {
+                id: 15,
+                title: 'Módulo 15 Prevención de heridas'
+              },
+              {
+                id: 16,
+                title: 'Módulo 16 Los jovenes'
+              }
+            ]
+          },
+          {
+            name: 'Modulos 17-23',
+            count: '17-23',
+            items: [{
+                id: 17,
+                title: 'Módulo 17 Lorem Text'
+              },
+              {
+                id: 18,
+                title: 'Módulo 18 Lorem Text'
+              },
+              {
+                id: 19,
+                title: 'Módulo 19 Lorem Text'
+              },
+              {
+                id: 20,
+                title: 'Módulo 20 Lorem Text'
+              },
+              {
+                id: 21,
+                title: 'Módulo 21 Lorem Text'
+              },
+              {
+                id: 22,
+                title: 'Módulo 22 Lorem Text'
+              },
+              {
+                id: 23,
+                title: 'Módulo 23 Prevención de heridas'
+              }
+            ]
+          }
+        ],
+        categories: [{
+            id: 1,
+            name: 'ADAPÉE',
+            description: 'Aux amateurs',
+            image: 'bg_category01.svg'
+          },
+          {
+            id: 2,
+            name: 'PRACTIQUE',
+            description: 'Avec de nombreux exemples en vidéos et des exemples de programmes',
+            image: 'bg_category02.svg'
+          },
+          {
+            id: 3,
+            name: 'DYNAMIQUE',
+            description: 'Grâce au forum et aux échanges avec les autres coachs et formateurs',
+            image: 'bg_category03.svg'
+          },
+          {
+            id: 4,
+            name: 'REFLEXIVE',
+            description: 'Afin de mieux intégrer et comprendre la préparation physique',
+            image: 'bg_category04.svg'
+          }
+        ]
+      }
+    },
+    components: {
+      ItemExercise,
+      CardModulo,
+      ItemModulo,
+      ItemCategory,
+      ItemComment
+    },
+    methods: {
+      resizeCardExercise() {
+        console.log("hello");
+
+      },
+
+
+
+    },
+    mounted() {
+      function resize(params) {
+        var newWidth = window.innerWidth;
+        var content_card_exercise = document.getElementById("content-card-exercise");
+        if (content_card_exercise != null) {
+          var card_exercise = content_card_exercise.children;
+
+          if (newWidth <= 767.98) {
+
+            content_card_exercise.classList.add("carousel-inner");
+            content_card_exercise.classList.remove("row");
+            content_card_exercise.children[0].classList.add("active");
+
+            for (let index = 0; index < card_exercise.length; index++) {
+              const element = card_exercise[index];
+              element.classList.remove("col-6");
+              element.classList.add("carousel-item");
+            }
+
+          } else {
+
+            content_card_exercise.classList.remove("carousel-inner");
+            content_card_exercise.classList.add("row");
+
+
+            for (let index = 0; index < card_exercise.length; index++) {
+              const element = card_exercise[index];
+              element.classList.add("col-6");
+              element.classList.remove("carousel-item");
+              element.classList.remove("active");
+
+            }
+
+          }
+          content_card_exercise.classList.remove("invisible");
+        }
+      }
+
+      resize()
+      window.addEventListener('resize', function resizecardcontent(event) {
+        resize()
+      });
+
+
+
+
+    },
+    created() {
+
+    },
   }
 </script>
 
 <style scoped>
   @import "~@/assets/css/global.scss";
 
+
+
+
   @media (max-width: 575.98px) {
+
     .section-one__gif svg {
       height: 240px !important;
     }
 
-    .section-one__card-one {
+    .card-one {
       box-shadow: none !important;
       padding: 0px !important;
     }
 
-    .section-one__secondary-title {
+    .secondary-title {
       font-family: Montserrat-bold, sans-serif !important;
       color: #080808 !important;
     }
 
-    .section-one__simple-text.t-black {
+    .simple-text.t-black {
       color: #080808 !important;
     }
 
-.section-one__secondary-title {
-    font-size: 1.1rem !important;
-  }
-
-   .section-one__simple-text.t-black {    
-    font-size: 0.8rem !important;  
-  }
-
-  .section-one__simple-text.t-black-on {  
-    font-size: 0.8rem !important;
-  }
-
-  .b-card-group__item svg {
-    height: 110px !important;
-  }
-
- .b-card-group__item {
-    height: 110px !important; 
-  }
-
-  .b-card-group__item__title {
-    font-size: 0.8rem !important;
-  }
-
-  .g-form-05{
-      top:101rem !important;
+    .secondary-title {
+      font-size: 1.1rem !important;
     }
 
-    .card-video{
+    .simple-text.t-black {
+      font-size: 0.8rem !important;
+    }
+
+    .simple-text.t-black-on {
+      font-size: 0.8rem !important;
+    }
+
+    .b-card-group__item img {
+      height: 110px !important;
+    }
+
+    .b-card-group__item {
+      height: 110px !important;
+    }
+
+    .b-card-group__item__title {
+      font-size: 0.8rem !important;
+    }
+
+    .g-form-05 {
+      top: 101rem !important;
+    }
+
+
+    .card-video {
       margin-top: 10rem !important;
+    }
+
+    .content-slide-exercise {
+      margin-top: 4rem !important;
+    }
+
+    .spacing-top-card-exercise {
+      margin: 6rem 0 0 0 !important;
+    }
+
+    .img-bandera {
+      display: block !important;
+    }
+
+    .absolute-center-sm {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%)
+    }
+
+    .section-video-content {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+
+
+
+    .section-video {
+      margin-top: 2rem !important;
+    }
+
+    .section-rejolgnez {
+      margin-top: 13rem !important;
+    }
+
+    .section-comments {
+      margin-top: 15rem !important;
+    }
+
+    .section-confiance {
+      margin-top: rem !important;
+    }
+
+    .btn-xs-block {
+      display: block !important;
+      width: 100% !important;
     }
 
   }
@@ -548,12 +910,47 @@
       top: 78rem !important;
     }
 
-    .spacing-top{
-       margin: 12rem 0 0 0 !important;
+    .spacing-top {
+      margin: 12rem 0 0 0 !important;
     }
 
-    .g-form-05{
-      top:135rem !important;
+    .g-form-05 {
+      top: 135rem !important;
+    }
+
+    .section-video {
+      margin-top: 5rem !important;
+    }
+
+    .g-form-06 {
+      top: 141rem !important;
+    }
+
+    .g-form-07 {
+      top: 114rem !important;
+    }
+
+    .content-slide-exercise {
+      margin-top: 4rem !important;
+    }
+
+    .section-rejolgnez {
+      margin-top: 20rem !important;
+    }
+
+
+    .section-comments {
+      margin-top: 25rem !important;
+    }
+
+    .section-questions {
+      margin-top: 24rem !important;
+    }
+
+
+    .btn-xs-block {
+      display: block !important;
+      width: 100% !important;
     }
 
   }
@@ -567,8 +964,9 @@
     .g-form-05 {
       top: 70rem !important;
     }
-    .spacing-top{
-       margin: 12rem 0 !important;
+
+    .spacing-top {
+      margin: 12rem 0 !important;
     }
 
     .g-form-04 {
@@ -580,9 +978,37 @@
       height: 7rem !important;
     }
 
-    .g-form-05{
-      top:100rem !important;
+    .g-form-05 {
+      top: 68rem !important;
     }
+
+    .section-video {
+      margin-top: 5rem !important;
+    }
+
+    .g-form-06 {
+      top: 105rem !important;
+    }
+
+    .g-form-07 {
+      top: 90rem !important;
+    }
+
+    .section-jspectateurs {
+      margin-top: 10rem !important;
+    }
+
+
+    .section-comments {
+      margin-top: 5rem !important;
+    }
+
+    .form01-section-confiance {
+      bottom: -10rem !important;
+    }
+
+
+
   }
 
   @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -599,11 +1025,34 @@
     .g-form-04 img {
       height: 10rem !important;
     }
-    .spacing-top{
-       margin: 12rem 0 !important;
+
+    .spacing-top {
+      margin: 12rem 0 !important;
     }
 
-    
+    .section-video {
+      margin-top: 5rem !important;
+    }
+
+    .g-form-06 {
+      top: 109rem !important;
+    }
+
+    .g-form-07 {
+      top: 103rem !important;
+    }
+
+    .section-jspectateurs {
+      margin-top: 15rem !important;
+    }
+
+    .form01-section-confiance {
+      bottom: -12rem !important;
+    }
+
+
+
+
   }
 
   @media (min-width: 1200px) {
@@ -612,56 +1061,78 @@
       top: 27rem !important;
     }
 
-    .spacing-top{
-       margin: 12rem 0 !important;
+    .spacing-top {
+      margin: 12rem 0 !important;
     }
+
+    .section-video {
+      margin-top: 5rem !important;
+    }
+
+    .g-form-06 {
+      top: 117rem !important;
+    }
+
+    .section-jspectateurs {
+      margin-top: 25rem !important;
+    }
+
 
 
   }
 
+
+
+  .btn-red {
+    background-color: red;
+  }
+
+  .btn-red:hover {
+    background-color: rgb(243, 7, 7);
+  }
 
   .section-one__gif svg {
     height: 390px;
   }
 
-  .section-one__title {
+  .title {
     font-family: Montserrat-extrabold, sans-serif;
     font-size: 1.5rem;
     color: #0F0F0F;
     line-height: 1.2;
   }
 
-  .section-one__secondary-title {
+  .secondary-title {
     font-family: Montserrat-extrabold, sans-serif;
     font-size: 1.4rem;
     color: #707070;
     line-height: 1.35;
   }
 
-  .section-one__tertiary-title {
+  .tertiary-title {
     font-family: Montserrat-bold, sans-serif;
     font-size: 1.3rem;
     color: #707070;
   }
 
-  .section-one__line {
+  .line {
     background-color: #FF0313;
     width: 44px;
     height: 3.6px;
   }
 
-  .section-one__simple-text {
+  .simple-text {
     font-family: Montserrat-medium, sans-serif;
     font-size: 0.8rem;
     color: #707070;
   }
 
-  .section-one__simple-text.t-black-on {
+  .simple-text.t-black-on {
     color: #0F0F0F;
     font-size: 0.9rem;
   }
 
-  .section-one__simple-text.t-black {
+  .simple-text.t-black {
     font-family: Montserrat-medium, sans-serif;
     font-size: 0.94rem;
     color: #707070;
@@ -709,10 +1180,97 @@
     top: 20px;
   }
 
-  .b-card-group__item  svg {
+  .b-card-group__item img {
     height: 150px;
     width: auto;
     float: right;
     border-radius: 7px;
+  }
+
+  .carousel-indicators li {
+    background-color: #707070;
+    height: 8px;
+  }
+
+  .carousel-indicators .active {
+    background-color: red;
+  }
+
+  .section-video {
+    position: relative;
+    height: 500px;
+    text-align: center;
+  }
+
+  .card-youtube {
+    background-image: url("../assets/bg_bandera.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .section-video__frame {
+    border-radius: 1.1rem;
+    box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(252, 254, 255, 0.19);
+  }
+
+  .g-form-12 {
+    position: absolute;
+    right: -1.3rem;
+    z-index: -99;
+    width: 10rem;
+    bottom: -4rem;
+  }
+
+  .g-form-13 {
+    position: absolute;
+    right: 2rem;
+    z-index: -99;
+    width: 10rem;
+    bottom: -4rem;
+  }
+
+  .section-reste-vous {
+    margin-top: 3rem;
+  }
+
+  .section-rejolgnez {
+    margin-top: 20rem;
+  }
+
+  .content-card-modulo::-webkit-scrollbar {
+    display: none;
+  }
+
+  .content-card-comments::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .content-card-modulo {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  .content-card-comments {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  .section-category {
+    padding: 8rem 0;
   }
 </style>
