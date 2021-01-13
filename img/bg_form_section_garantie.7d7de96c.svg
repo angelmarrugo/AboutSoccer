@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="976" viewBox="0 0 1920 976">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_714" data-name="Rectángulo 714" width="1920" height="976" transform="translate(0 13411)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_136" data-name="Enmascarar grupo 136" transform="translate(0 -13411)" clip-path="url(#clip-path)">
+    <path id="Trazado_2188" data-name="Trazado 2188" d="M10208.484,7801.819S10404.7,7740.375,10555,7742.8s286.4-92.8,286.4-92.8v181.06l-618.37,26.516Z" transform="translate(-8877.281 5761)" fill="#f9334a"/>
+    <path id="Trazado_2186" data-name="Trazado 2186" d="M8886,8856.363s158.662-194.406,384.981-203.459,345.9,52.1,507.824,27.762,451.368-99,572.595-115-106.542-19.229-122.748-62.866-449.847-53.709-449.847-53.709L8886,8475.757Z" transform="translate(-8922.197 5544.303)" fill="#cfeef3"/>
+    <path id="Trazado_2187" data-name="Trazado 2187" d="M10929.193,7824.69s-413.993-116-772.6,0-678.486-44.233-778.492-82.678C9158.315,7657.521,8848,7693.6,8848,7693.6l22.4,776.328s226.44-202.853,474.2-100.255,436.783,188.814,828,73.849,723.354,0,723.354,0Z" transform="translate(-8928.597 5762.188)" fill="#101010"/>
+  </g>
+</svg>
